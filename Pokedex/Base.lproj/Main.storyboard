@@ -200,7 +200,7 @@
                                 </constraints>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="ria-Jc-KWL">
-                                <rect key="frame" x="16" y="86" width="343" height="261.5"/>
+                                <rect key="frame" x="16" y="98" width="343" height="261.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="VDB-lx-aLB">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="158"/>
@@ -407,10 +407,10 @@
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="NbT-da-sr0">
                                 <rect key="frame" x="55" y="539" width="265" height="120"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3" translatesAutoresizingMaskIntoConstraints="NO" id="m28-56-d2Q">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="m28-56-d2Q">
                                         <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="UOj-e6-EpR">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3" translatesAutoresizingMaskIntoConstraints="NO" id="UOj-e6-EpR">
                                         <rect key="frame" x="145" y="0.0" width="120" height="120"/>
                                     </imageView>
                                 </subviews>
@@ -418,7 +418,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="ria-Jc-KWL" firstAttribute="top" secondItem="sog-tG-hMN" secondAttribute="bottom" constant="8" id="4SZ-xD-qBM"/>
+                            <constraint firstItem="ria-Jc-KWL" firstAttribute="top" secondItem="sog-tG-hMN" secondAttribute="bottom" constant="20" id="4SZ-xD-qBM"/>
                             <constraint firstItem="pSt-Uu-NaB" firstAttribute="leading" secondItem="x7X-h4-123" secondAttribute="leading" id="6H3-XU-FyB"/>
                             <constraint firstAttribute="trailing" secondItem="pSt-Uu-NaB" secondAttribute="trailing" id="CQ6-0G-NlL"/>
                             <constraint firstAttribute="trailingMargin" secondItem="ria-Jc-KWL" secondAttribute="trailing" id="Sqh-Lj-Pod"/>

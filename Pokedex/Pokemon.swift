@@ -29,7 +29,7 @@ class Pokemon {
         if _description == nil {
             _description = ""
         }
-        return _descriptionç
+        return _description
 
     }
 
@@ -121,8 +121,31 @@ class Pokemon {
                     self._defense = "\(defense)"
                 }
 
+                if let types = dict["types"] as? [Dictionary<String, String>], types.count > 0 {
+
+                    if let name = types[0]["name"] {
+
+                        // Example  self._type = "Poisan"
+                        self._type = name.capitalized
+
+                    }
+
+                    if types.count > 1 {
+                        for x in 1..<types.count {
+                            if let name = types[x]["name"] {
+                                // Example self._type -> ผลที่ได้คือ "Poisan/Grass"
+                                self._type! += "/\(name.capitalized)"
+                            }
+                        }
+                    }
+
+                } else {
+                    self._type = ""
+                }
+
+
             }
-            
+
             completed()
 
         }
