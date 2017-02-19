@@ -72,9 +72,8 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="EVG-UK-yuY">
                                 <rect key="frame" x="0.0" y="122" width="375" height="545"/>
                             </imageView>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="EvA-2p-eng">
-                                <rect key="frame" x="22" y="141" width="337" height="506"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="EvA-2p-eng">
+                                <rect key="frame" x="16" y="142" width="343" height="525"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="W48-dm-rZp">
                                     <size key="itemSize" width="106" height="106"/>
@@ -127,12 +126,16 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="EvA-2p-eng" firstAttribute="top" secondItem="dGF-ma-geE" secondAttribute="bottom" constant="20" id="33n-1S-707"/>
+                            <constraint firstItem="EvA-2p-eng" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="4bm-rA-fGd"/>
                             <constraint firstAttribute="trailing" secondItem="Vdg-lH-W2F" secondAttribute="trailing" id="5ZR-Wc-t37"/>
                             <constraint firstItem="Vdg-lH-W2F" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="7Sd-dD-NyQ"/>
+                            <constraint firstItem="EvA-2p-eng" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="8WV-2v-wMh"/>
                             <constraint firstItem="dGF-ma-geE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Ab7-pP-j7s"/>
                             <constraint firstItem="EVG-UK-yuY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="BnO-9S-i3d"/>
                             <constraint firstAttribute="trailing" secondItem="dGF-ma-geE" secondAttribute="trailing" id="DHp-Qw-THq"/>
                             <constraint firstItem="EVG-UK-yuY" firstAttribute="top" secondItem="dGF-ma-geE" secondAttribute="bottom" id="E9I-b6-MkT"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="EvA-2p-eng" secondAttribute="bottom" id="JQl-y1-kr0"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="EVG-UK-yuY" secondAttribute="bottom" id="Kgs-v1-KED"/>
                             <constraint firstAttribute="trailing" secondItem="EVG-UK-yuY" secondAttribute="trailing" id="VuP-wJ-o9k"/>
                             <constraint firstItem="Vdg-lH-W2F" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="hhk-fN-YD3"/>
